@@ -1,7 +1,7 @@
 {
   "name": "@stretchshop/moleculer-db-addons",
   "description": ":gift: Official database addons for Moleculer framework",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "scripts": {
     "setup": "npm install && lerna bootstrap",
     "clean": "lerna clean",
@@ -24,6 +24,7 @@
   "author": "MoleculerJS",
   "license": "MIT",
   "homepage": "https://github.com/StretchShop/moleculer-db#readme",
+  
   "devDependencies": {
     "coveralls": "^3.1.1",
     "eslint": "^7.30.0",
@@ -34,10 +35,9 @@
     "lodash": "^4.17.21",
     "markdown-magic": "^2.3.2",
     "moleculer": "^0.14.14",
-    "nodemon": "^2.0.9"
+    "nodemon": "^2.0.10"
   },
   "dependencies": {
-    "@seald-io/nedb": "^2.0.3",
     "moleculer-cli": "^0.7.1"
   },
   "jest": {
